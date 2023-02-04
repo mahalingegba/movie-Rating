@@ -1,0 +1,34 @@
+
+.bodyform{
+background-color: #ffe645;
+
+.header-container{
+    width:10px;
+    height:110px;
+    //background: #fdc827;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 70px;
+    padding: 20px;
+    //background-color: yellow;
+    //background: linear-gradient(135deg ,#ffe645 0%, #e2aa02 100%);
+    .logo{
+        font-size:24px;
+        font-weight: bold;
+        font-family: 'Creepster' cursive;
+        letter-spacing: 4px;
+        margin-left:40px;
+        cursor: pointer;
+        position: absolute;
+    }
+    .logout{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 40px;
+        cursor: pointer;
+        margin-left: 900px;
+        
+    }
+}
+}

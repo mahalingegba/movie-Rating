@@ -1,0 +1,19 @@
+<div class="login-container">
+    <img class="film" src="assets/reel.png">
+    <div class="logo">IMDB Rating Application.</div>
+    <div class="desc">World's Largest Movie Rating application.</div>
+    <div class="login-form">
+        <div class="login-group">
+            <label for="userName">UserName : </label>
+            <input type="text" name="userName" class="form-control" ([ngModel])="username">
+        </div>
+          <div class="login-group">
+                <label for="password">PassWord </label>
+                <input type="password" name="password" class="form-control" ([ngModel])="password">
+            </div>
+        <div class="btn-container">
+            <div class="error">{{errorMessage}}</div>
+            <button class="btn btn-dark" (click)="LoggingIn()">Login</button>
+        </div>
+    </div>
+</div>

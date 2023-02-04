@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "movie-Rating"
+    }
+  },
+  "defaultProject": "movie-Rating",
+  "cli": {
+    "analytics": "3705de35-a7d5-4c6f-a962-9daa444e91fc"
+  }
 }

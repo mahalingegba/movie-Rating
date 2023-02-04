@@ -1,0 +1,187 @@
+.home-container{
+    display: flex;
+
+    .all-movies{
+        width: 75%;
+        min-height: calc(100vh-80px);
+        border-right: 1px solid #fdc827;
+        padding: 20px ,40px;
+        font-family: 'Robot',sans-serif;
+    .trending-movies ,.theatre-movies{
+        width: 25%;
+        min-height: calc(100vh-80px);
+        padding: 20px ,40px;
+        font-family: 'Robot',sans-serif;
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            h4{
+                text-transform: uppercase;
+                font-weight: bold;
+                border-left: 5px solid #ff9900;
+                padding-left: 10px;
+            }
+            .view-all{
+                position: absolute;
+                padding-left: 20px;
+                cursor: pointer;
+                right: 90px;
+                margin-left: 900px;
+                color: #ff9900;
+            }
+        }
+        .movies-thumbnails{
+            display: flex;
+            justify-content: space-between;
+           
+            .movie{
+                .cover{
+                    img{
+                        border-radius: 5px;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+                .detail{
+                    width: 180px;
+            .name{
+                font-weight: bold;
+                height: 50px;
+                margin-top: 5px;
+                
+            }
+                }
+            }
+
+        }
+    }
+
+    .popular-movies{
+            width: 25%;
+            min-height: calc(100vh-80px);
+            padding: 20px ,40px;
+            font-family: 'Robot',sans-serif;
+            .top{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 15px;
+                h4{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    border-left: 5px solid #ff9900;
+                    padding-left: 10px;
+                }
+
+            }
+            .view-all{
+                position: absolute;
+                color: #ff9900;
+                padding-left: 20px;
+                cursor: pointer;
+                right: 90px;
+                
+
+            }
+            .movies-thumbnails{
+                display: flex;
+                justify-content: space-between;
+                .movie{
+                    .cover{
+                        img{
+                            border-radius: 5px;
+                            cursor: pointer;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                    }
+                    .detail{
+                        width: 180px;
+                .name{
+                    font-weight: bold;
+                    height: 50px;
+                    margin-top: 5px;
+                    
+                }
+                    }
+                }
+
+            }
+        }
+    
+        .theatre-movies{
+            width: 25%;
+            min-height: calc(100vh-80px);
+            padding: 20px ,40px;
+            font-family: 'Robot',sans-serif;
+            .top{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 15px;
+                h4{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    border-left: 5px solid #ff9900;
+                    padding-left: 10px;
+                }
+                .view-all{
+                    position: absolute;
+                    padding-left: 20px;
+                    cursor: pointer;
+                    right: 90px;
+                    margin-left: 900px;
+                    color: #ff9900;
+                }
+            }
+            .movies-thumbnails{
+                display: flex;
+                justify-content: space-between;
+               
+                .movie{
+                    .cover{
+                        img{
+                            border-radius: 5px;
+                            cursor: pointer;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                    }
+                    .detail{
+                        width: 180px;
+                .name{
+                    font-weight: bold;
+                    height: 50px;
+                    margin-top: 5px;
+                    
+                }
+                    }
+        }
+    
+            }
+        }
+
+}
+}
+.filled {
+    color: red;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rating{
+    padding-right: 45px;
+    position: relative;
+    .rating-value{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        font-weight: bold;
+    }
+}
+    
